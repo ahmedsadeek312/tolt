@@ -1,0 +1,89 @@
+/* Key Features & Demo Call Section */
+.main-features-section .feature-box {
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .yellow-box {
+    background-color: #ffeb3b;
+    color: #1d1d1d;
+  }
+  
+  .blue-box {
+    background-color: #6366f1;
+    color: white;
+  }
+  
+  .feature-box h3 {
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  
+  .info-box {
+    display: flex;
+    align-items: start;
+    margin-top: 15px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+    border-radius: 20px;
+  }
+  
+  .info-box .icon-box {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #6c63ff;
+  }
+  
+  .info-box .text-box p {
+    margin: 0;
+  }
+  
+  .demo-btn {
+    background-color: white;
+    color: #6366f1;
+    border-radius: 50px;
+    font-weight: 600;
+  }
+  
+  /* Banner Section */
+  .affiliate-software-banner {
+    background-color: #111827;
+    color: white;
+    padding: 15px 0;
+    border-radius: 10px;
+  }
+  
+  /* Blog Section */
+  .blog-card {
+    border: none;
+  }
+  
+  .blog-card .badge {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+  
+  .blog-card .card-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+  }
+  
+  .blog-card .card-text {
+    font-size: 1rem;
+    color: #6b7280; /* Greyish text for author */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .feature-box h3 {
+      font-size: 1.5rem;
+    }
+  
+    .blog-card .card-title {
+      font-size: 1.1rem;
+    }
+    
+  }
+  

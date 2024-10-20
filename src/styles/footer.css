@@ -1,0 +1,30 @@
+.bg-light-purple {
+    background-color: #f5ebfd; /* Light purple background color */
+    color: #333; /* Default text color */
+  }
+  
+  .fw-bold {
+    font-weight: bold;
+  }
+  
+  button {
+    font-size: 1rem;
+  }
+  
+  footer h6 {
+    font-weight: bold;
+  }
+  
+  footer ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  footer ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-icons a {
+    font-size: 1.5rem;
+  }
+  

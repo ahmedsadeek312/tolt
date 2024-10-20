@@ -1,0 +1,100 @@
+/* Global Styles */
+.comparison-section {
+    background-color: #f8f9fa;
+    padding: 30px;
+  }
+  
+  .offer-card, .competitor-card {
+    background-color: #ffffff;
+    border: 2px solid #f0f0f0;
+    border-radius: 12px;
+  }
+  
+  /* What We Offer Styles */
+  .offer-card {
+    border-color: #cfd9ff; /* Soft purple border */
+  }
+  
+  .offer-list li {
+    color: #383838; /* Dark text color */
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  .offer-list .bi-check-circle-fill {
+    color: #6366f1; /* Light purple check icon */
+  }
+  
+  /* Competitors Styles */
+  .competitor-card {
+    border-color: #ffd1d1; /* Soft red border */
+  }
+  
+  .competitor-list li {
+    color: #383838;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  .competitor-list .bi-x-circle-fill {
+    color: #f87171; /* Light red cross icon */
+  }
+  
+  /* VS Circle */
+  .vs-circle {
+    background-color: #3b82f6; /* Blue background for VS */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .vs-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .vs-circle {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .vs-text {
+      font-size: 18px;
+    }
+  }
+  
+  /* Text Links */
+  .links a.text-link {
+    color: #3b82f6; /* Blue text link color */
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .links a.text-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Title */
+  .section-title {
+    color: #111827; /* Dark color for section titles */
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  /* Responsive */
+  @media (max-width: 576px) {
+    .section-title {
+      font-size: 1.2rem;
+    }
+  
+    .offer-list li, .competitor-list li {
+      font-size: 1rem;
+    }
+  }
+  

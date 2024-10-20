@@ -1,0 +1,60 @@
+/* Overall Section Styles */
+.features-section {
+    background-color: #f8f9fa;
+    padding: 30px;
+  }
+  
+  /* Left Section - Big Text */
+  .left-section .text-box {
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .left-section h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1.3;
+  }
+  
+  .highlighted-text {
+    background-color: #ff64ff;
+    color: white;
+    padding: 0 8px;
+    font-weight: 700;
+  }
+  
+  /* Feature Item Styles */
+  .feature-item {
+    margin-bottom: 30px;
+  }
+  
+  .feature-icon {
+    font-size: 2rem;
+    color: #6366f1; /* Purple for icons */
+    margin-bottom: 10px;
+  }
+  
+  .feature-item h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 8px;
+  }
+  
+  .feature-item p {
+    color: #6b7280; /* Grayish text for description */
+    font-size: 1rem;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .left-section h2 {
+      font-size: 2rem;
+    }
+  
+    .feature-icon {
+      font-size: 1.8rem;
+    }
+  }
+  

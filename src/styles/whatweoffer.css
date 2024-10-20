@@ -1,0 +1,99 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .app {
+    padding: 20px;
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .highlight {
+    background-color: #ff00ff; /* Pink highlight */
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .nav-bar {
+    font-size: 1.1rem;
+  }
+  
+  .nav-link {
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .dashboard-active {
+    background-color: #001d60; /* Dark blue for Dashboard */
+    color: white;
+  }
+  
+  .affiliate-active {
+    background-color: #ff00ff; /* Pink for Affiliate Portal */
+    color: white;
+  }
+  
+  .setup-active {
+    background-color: #00c853; /* Green for Setup */
+    color: white;
+  }
+  
+  .payments-active {
+    background-color: #ff9800; /* Orange for Payments */
+    color: white;
+  }
+  
+  .section {
+    margin-bottom: 60px;
+  }
+  
+  .section-img {
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .section-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  .section-btn {
+    background-color: #001d60;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .section-btn:hover {
+    background-color: #ff00ff; /* Button hover color */
+    color: white;
+  }
+.mynav{
+    border-color: #333;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+}  

@@ -1,0 +1,67 @@
+.why-choose-tolt-section {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .text-box {
+    padding: 40px;
+    border-radius: 20px;
+  }
+  
+  .blue-box {
+    background-color: #3167f0;
+    color: #fff;
+  }
+  
+  .dark-box {
+    background-color: #1b1b1b;
+    color: #fff;
+  }
+  
+  .section-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .section-text {
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+  }
+  
+  .highlighted-text {
+    color: #ffb100;
+  }
+  
+  .info-card {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    margin-bottom: 15px;
+  }
+  
+  .secondary-card {
+    background-color: #ffb100;
+    color: #fff;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .text-center {
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .blue-box, .dark-box {
+      margin-bottom: 20px;
+    }
+  }
+  .mycard{
+    margin-right: 70px;
+    margin-left: 70px;
+  }
